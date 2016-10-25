@@ -1,0 +1,24 @@
+{
+  "name": "mocha-chai-es6-boilerplate",
+  "version": "1.0.0",
+  "description": "Mocha Chai ES6 Boilerplate",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register --recursive"
+  },
+  "keywords": [
+    "es6",
+    "mocha",
+    "chai",
+    "babel",
+    "jsdom"
+  ],
+  "author": "Julien Etienne",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "*",
+    "babel-register": "*",
+    "chai": "^3.5.0",
+    "jsdom": "*",
+    "mocha": "*"
+  }
+}
